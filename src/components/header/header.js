@@ -9,7 +9,6 @@ const Header = () => {
                     <div className="container1">
                     </div>
                     <LinkStyles>
-                        {/* <img src={logo}></img> */}
                         <Link to='/'><b>Home</b></Link>
                         <Link to='/about'><b>About Me</b></Link>
                         <Link to='/contact'><b>Contact</b></Link>
