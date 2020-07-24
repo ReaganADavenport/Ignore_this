@@ -7,16 +7,22 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="Greeting">
-
+                <h1>Hi! I'm Reagan Davenport</h1>
+                <h4>A Full-Stack Developer</h4>
             </div>
 
-            <div className="MyWork">
+            <div className="Content">
+                <div className="MyWork">
+                    <h4>Stuff I've Made</h4>
+                </div>
 
-            </div>
+                <div className="WhatIKnow">
+                    <h4>Stuff I Know</h4>
+                </div>
 
-            <div className="WhatIKnow">
-                
             </div>
         </div>
     )
 }
+
+export default Home;
