@@ -1,7 +1,9 @@
-import React from 'react';
+import React,{Component} from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import './home.css';
+
+import mandarin_card from "../Card/card-1";
 
 const Home = () => {
     return(
@@ -14,6 +16,7 @@ const Home = () => {
             <div className="Content">
                 <div className="MyWork">
                     <h4>Stuff I've Made</h4>
+                    
                 </div>
 
                 <div className="WhatIKnow">

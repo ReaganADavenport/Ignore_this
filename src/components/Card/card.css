@@ -5,6 +5,7 @@
 .flashcard { 
     align-content: center;
     border: solid 1px rgb(202, 198, 198);
+    box-shadow: 0 9px #999;
     height: 200px;
     margin: 1px;
     width: 150px;
@@ -51,6 +52,6 @@
     width: 100%;
 }
 
-.flipped:click {
+.flipped {
     transform: rotateY(180deg);
 }
