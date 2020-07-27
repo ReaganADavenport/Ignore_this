@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from "../../images/wu.png"
+import logo from "../../../images/wu.png"
 
 import "./card-1.css";
 
