@@ -28,8 +28,10 @@ const Home = () => {
             <div className="Content">
                 <div className="MyWork">
                     <h4>Projects</h4>
-                    <Mandarin/>
-                    <PressA/>
+                    <div className="Works">
+                        <Mandarin/>
+                        <PressA/>
+                    </div>
                 </div>
 
                 <div className="WhatIKnow">

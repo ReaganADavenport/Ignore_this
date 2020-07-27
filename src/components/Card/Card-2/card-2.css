@@ -4,6 +4,7 @@
     width: 200px;
     height: 250px;
     border: 1px solid #f1f1f1;
+    margin: 20px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -71,8 +72,10 @@
 .flip-card-back p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
+    padding: 2px;
 }
 
 .flip-card-back a{
-    color: white
+    color: white;
+    /* text-decoration: none; */
 }

@@ -1,13 +1,14 @@
-.flip-card {
+.flip-mcard {
     border-radius: 15px;
     cursor: pointer;
     width: 200px;
     height: 250px;
     border: 1px solid #f1f1f1;
+    margin: 20px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.flip-card-inner {
+.flip-mcard-inner {
     border-radius: 15px;
     position: relative;
     width: 100%;
@@ -17,11 +18,11 @@
     transform-style: preserve-3d;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-mcard:active .flip-mcard-inner {
     transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-mcard-front, .flip-mcard-back {
     border-radius: 15px;
     box-shadow: 5px 5px #999;
     position: absolute;
@@ -31,12 +32,12 @@
     backface-visibility: hidden;
 }
 
-.flip-card-front {
+.flip-mcard-front {
     background-color: white;
     color: black;
 }
 
-.flip-card-front img{
+.flip-mcard-front img{
     background-color: #DC3E52;
     border-radius: 15px;
     margin: 5px;
@@ -44,23 +45,23 @@
     width: 60px;
 }
 
-.flip-card-front h4{
+.flip-mcard-front h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
-.flip-card-front p{
+.flip-mcard-front p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
-.flip-card-back {
+.flip-mcard-back {
     background-color: #DC3E52;
     color: white;
     transform: rotateY(180deg);
 }
 
-.flip-card-back img{
+.flip-mcard-back img{
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -68,11 +69,11 @@
     width: 60px;
 }
 
-.flip-card-back p{
+.flip-mcard-back p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
 }
 
-.flip-card-back a{
+.flip-mcard-back a{
     color: white
 }

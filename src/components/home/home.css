@@ -19,6 +19,14 @@
     
 } */
 
+.Works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 30px;
+}
+
 .WhatIKnow{
     background-color: white;
 }

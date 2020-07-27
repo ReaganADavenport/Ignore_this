@@ -5,15 +5,15 @@ import "./card-1.css";
 
 const Mandarin = () => {
     return(
-        <div className="flip-card">
-            <div className="flip-card-inner">
-                <div className="flip-card-front">
+        <div className="flip-mcard">
+            <div className="flip-mcard-inner">
+                <div className="flip-mcard-front">
                     <img src={logo}/>
                     <h4>Learn Mandarin</h4>
                     <p>Learn how to read and write in Mandarin Chinese</p>
                 </div>
 
-                <div className="flip-card-back">
+                <div className="flip-mcard-back">
                     <img src={logo}/>
                     <p>React, Express, HTML, CSS, JavaScipt, PosgreSQL</p>
                     <p>Demo Video</p>
