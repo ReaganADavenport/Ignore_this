@@ -15,6 +15,7 @@ import ruby from "../../images/skills/ruby.png"
 import swift from "../../images/skills/swift.png"
 
 import Mandarin from "../Card/card-1";
+import PressA from "../Card/card-2";
 
 const Home = () => {
     return(
@@ -28,6 +29,7 @@ const Home = () => {
                 <div className="MyWork">
                     <h4>Projects</h4>
                     <Mandarin/>
+                    <PressA/>
                 </div>
 
                 <div className="WhatIKnow">

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from "../../images/wu.png"
 
-import "./card.css";
+import "./card-1.css";
 
 const Mandarin = () => {
     return(
