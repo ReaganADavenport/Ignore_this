@@ -13,10 +13,12 @@ const LinkStyles = styled.ul`
     
     a{
         align-items: space-around;
+        color: black;
         display: flex;
         justify-content: center;
         margin: 0 0;
         padding: 10px 10px 10px 10px;
+        text-decoration: none;
     }
 `
 
@@ -25,8 +27,6 @@ const Header = () => {
     return(
         <>
                 <div className="navBar">
-                    <div className="container1">
-                    </div>
                     <LinkStyles>
                         <Link to='/'><b>Home</b></Link>
                         <Link to='/about'><b>About Me</b></Link>

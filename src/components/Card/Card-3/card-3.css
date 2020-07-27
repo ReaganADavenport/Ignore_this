@@ -1,4 +1,4 @@
-.flip-pcard {
+.flip-acard {
     border-radius: 15px;
     cursor: pointer;
     width: 200px;
@@ -8,7 +8,7 @@
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.flip-pcard-inner {
+.flip-acard-inner {
     border-radius: 15px;
     position: relative;
     width: 100%;
@@ -18,11 +18,11 @@
     transform-style: preserve-3d;
 }
 
-.flip-pcard:active .flip-pcard-inner {
+.flip-acard:active .flip-acard-inner {
     transform: rotateY(180deg);
 }
 
-.flip-pcard-front, .flip-pcard-back {
+.flip-acard-front, .flip-acard-back {
     border-radius: 15px;
     box-shadow: 5px 5px #999;
     position: absolute;
@@ -32,36 +32,36 @@
     backface-visibility: hidden;
 }
 
-.flip-pcard-front {
+.flip-acard-front {
     background-color: white;
     color: black;
 }
 
-.flip-pcard-front img{
-    background-color: #31A5BA;
+.flip-acard-front img{
+    background-color: #E85FA2;
     border-radius: 15px;
     margin: 5px;
     padding: 3px;
     width: 60px;
 }
 
-.flip-pcard-front h4{
+.flip-acard-front h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
-.flip-pcard-front p{
+.flip-acard-front p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
-.flip-pcard-back {
-    background-color: #31A5BA;
+.flip-acard-back {
+    background-color: #E85FA2;
     color: white;
     transform: rotateY(180deg);
 }
 
-.flip-pcard-back img{
+.flip-acard-back img{
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -69,13 +69,13 @@
     width: 60px;
 }
 
-.flip-pcard-back p{
+.flip-acard-back p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     padding: 2px;
 }
 
-.flip-pcard-back a{
+.flip-acard-back a{
     color: white;
     /* text-decoration: none; */
 }
