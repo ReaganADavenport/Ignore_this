@@ -1,0 +1,21 @@
+.About {
+    background-image: linear-gradient(#FCA276, #DC3E52);
+    padding: 30px;
+}
+
+.About h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.Content {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.Content p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-size: 20px; */
+}

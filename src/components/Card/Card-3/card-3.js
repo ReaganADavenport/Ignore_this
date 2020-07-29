@@ -1,29 +1,42 @@
 import React, {Component} from 'react';
+import ReactCardFlip from 'react-card-flip';
 import logo from "../../../images/wizard_hat.png"
 
 import "./card-3.css";
 
-const Adventure = () => {
-    return(
-        <div className="flip-acard">
-            <div className="flip-acard-inner">
-                <div className="flip-acard-front">
+class Adventure extends Component {
+    constructor() {
+        super();
+            this.state = {
+                isFlipped: false
+            };
+
+            this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e) {
+        e.preventDefault();
+        this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+    }
+
+    render(){
+        return(
+            <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
+                <div className="flip-acard-front" onClick={this.handleClick}>
                     <img src={logo}/>
-                    <h4>Python Text-Based Adventure</h4>
+                    <h5>Python Text-Based Adventure</h5>
                     <p>Travel through the land and save the people from the evil wizard.</p>
                 </div>
 
-                <div className="flip-acard-back">
+                <div className="flip-acard-back" onClick={this.handleClick}>
                     <img src={logo}/>
                     <p>Python, OOP</p>
                     <p>Demo Video</p>
                     <p><a href="https://github.com/ReaganADavenport/My_game">GitHub Repository</a> </p>
                 </div>
-
-            </div>
-
-        </div>
-    )
+            </ReactCardFlip>
+        )
+    }
 }
 
 

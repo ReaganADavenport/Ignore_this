@@ -23,8 +23,8 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="Greeting">
-                <h1>Hi! I'm Reagan Davenport</h1>
-                <h4>A Full-Stack Developer</h4>
+                <h1>I'm Reagan Davenport</h1>
+                <h3>A Full-Stack Developer</h3>
             </div>
 
             <div className="Content">

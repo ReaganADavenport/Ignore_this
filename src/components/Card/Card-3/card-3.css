@@ -1,35 +1,12 @@
-.flip-acard {
-    border-radius: 15px;
-    cursor: pointer;
-    width: 200px;
-    height: 250px;
-    border: 1px solid #f1f1f1;
-    margin: 20px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-.flip-acard-inner {
-    border-radius: 15px;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.flip-acard:active .flip-acard-inner {
-    transform: rotateY(180deg);
-}
-
 .flip-acard-front, .flip-acard-back {
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+    height: 250px;
+    font-size: 15px;
+    margin: 20px;
+    width: 200px;
     border-radius: 15px;
     box-shadow: 5px 5px #999;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
 }
 
 .flip-acard-front {
@@ -45,20 +22,21 @@
     width: 60px;
 }
 
-.flip-acard-front h4{
+.flip-acard-front h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    margin: 3px;
+    padding: 3px;
 }
 
 .flip-acard-front p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .flip-acard-back {
     background-color: #E85FA2;
     color: white;
-    transform: rotateY(180deg);
 }
 
 .flip-acard-back img{
@@ -77,5 +55,4 @@
 
 .flip-acard-back a{
     color: white;
-    /* text-decoration: none; */
 }
