@@ -1,35 +1,12 @@
-.flip-pcard {
-    border-radius: 15px;
-    cursor: pointer;
-    width: 200px;
-    height: 250px;
-    border: 1px solid #f1f1f1;
-    margin: 20px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-.flip-pcard-inner {
-    border-radius: 15px;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.flip-pcard:active .flip-pcard-inner {
-    transform: rotateY(180deg);
-}
-
 .flip-pcard-front, .flip-pcard-back {
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+    height: 250px;
+    font-size: 15px;
+    margin: 20px;
+    width: 200px;
     border-radius: 15px;
     box-shadow: 5px 5px #999;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
 }
 
 .flip-pcard-front {
@@ -58,7 +35,6 @@
 .flip-pcard-back {
     background-color: #31A5BA;
     color: white;
-    transform: rotateY(180deg);
 }
 
 .flip-pcard-back img{
@@ -77,5 +53,4 @@
 
 .flip-pcard-back a{
     color: white;
-    /* text-decoration: none; */
 }
