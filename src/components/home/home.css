@@ -1,6 +1,6 @@
 .Home {
     background-image: linear-gradient(#FCA276, #DC3E52);
-    padding: 30px;
+    padding: 20px;
 }
 
 .Greeting h1{
@@ -26,6 +26,7 @@
 } */
 
 .Works {
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
