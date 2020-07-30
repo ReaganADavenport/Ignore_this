@@ -1,0 +1,25 @@
+.Contact {
+    background-image: linear-gradient(#FCA276, #DC3E52);
+    padding: 30px;
+}
+
+.Contact h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.Info {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.Info p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.Info a{
+    color: black;
+}
