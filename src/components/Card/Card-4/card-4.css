@@ -1,4 +1,4 @@
-.flip-dcard-front, .flip-dcard-back {
+.flip-ccard-front, .flip-ccard-back {
     border: 1px solid #f1f1f1;
     cursor: pointer;
     height: 250px;
@@ -9,13 +9,13 @@
     box-shadow: 5px 5px #999;
 }
 
-.flip-dcard-front {
+.flip-ccard-front {
     backface-visibility: hidden;
     background-color: white;
     color: black;
 }
 
-.flip-dcard-front img{
+.flip-ccard-front img{
     background-color: #FCA276;
     border-radius: 15px;
     margin: 5px;
@@ -23,24 +23,24 @@
     width: 60px;
 }
 
-.flip-dcard-front h5{
+.flip-ccard-front h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     margin: 3px;
     padding: 3px;
 }
 
-.flip-dcard-front p{
+.flip-ccard-front p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
 
-.flip-dcard-back {
+.flip-ccard-back {
     background-color: #FCA276;
     color: white;
 }
 
-.flip-dcard-back img{
+.flip-ccard-back img{
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -48,19 +48,19 @@
     width: 60px;
 }
 
-.flip-dcard-back h5{
+.flip-ccard-back h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     margin: 3px;
     padding: 3px;
 }
 
-.flip-dcard-back p{
+.flip-ccard-back p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 16px;
     padding: 2px;
 }
 
-.flip-dcard-back a{
+.flip-ccard-back a{
     color: white;
 }
