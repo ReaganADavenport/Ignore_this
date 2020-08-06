@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import ReactCardFlip from 'react-card-flip';
-import logo from "../../../images/wizard_hat.png"
+import logo from "../../../images/to-do-list.png"
 
 import "./card-3.css";
 
-class Adventure extends Component {
+class Tasks extends Component {
     constructor() {
         super();
             this.state = {
@@ -22,17 +22,17 @@ class Adventure extends Component {
     render(){
         return(
             <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-                <div className="flip-acard-front" onClick={this.handleClick}>
+                <div className="flip-tcard-front" onClick={this.handleClick}>
                     <img src={logo}/>
-                    <h5>Python Text-Based Adventure</h5>
-                    <p>Travel through the land and save the people from the evil wizard.</p>
+                    <h5>Mobile To-Do List</h5>
+                    <p>Keep track of everything you have to do while on the go</p>
                 </div>
 
-                <div className="flip-acard-back" onClick={this.handleClick}>
+                <div className="flip-tcard-back" onClick={this.handleClick}>
                     <img src={logo}/>
-                    <p>Python, OOP</p>
+                    <p>Swift, XCode</p>
                     <p>Demo Video</p>
-                    <p><a href="https://github.com/ReaganADavenport/My_game">GitHub Repository</a> </p>
+                    <p><a href="https://github.com/ReaganADavenport/To-Do_Mobile">GitHub Repository</a> </p>
                 </div>
             </ReactCardFlip>
         )
@@ -40,4 +40,4 @@ class Adventure extends Component {
 }
 
 
-export default Adventure; 
+export default Tasks; 

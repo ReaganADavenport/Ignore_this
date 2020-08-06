@@ -1,4 +1,4 @@
-.flip-acard-front, .flip-acard-back {
+.flip-tcard-front, .flip-tcard-back {
     border: 1px solid #f1f1f1;
     cursor: pointer;
     height: 250px;
@@ -9,12 +9,12 @@
     box-shadow: 5px 5px #999;
 }
 
-.flip-acard-front {
+.flip-tcard-front {
     background-color: white;
     color: black;
 }
 
-.flip-acard-front img{
+.flip-tcard-front img{
     background-color: #E85FA2;
     border-radius: 15px;
     margin: 5px;
@@ -22,24 +22,24 @@
     width: 60px;
 }
 
-.flip-acard-front h5{
+.flip-tcard-front h5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     margin: 3px;
     padding: 3px;
 }
 
-.flip-acard-front p{
+.flip-tcard-front p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
 
-.flip-acard-back {
+.flip-tcard-back {
     background-color: #E85FA2;
     color: white;
 }
 
-.flip-acard-back img{
+.flip-tcard-back img{
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -47,12 +47,12 @@
     width: 60px;
 }
 
-.flip-acard-back p{
+.flip-tcard-back p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     padding: 2px;
 }
 
-.flip-acard-back a{
+.flip-tcard-back a{
     color: white;
 }

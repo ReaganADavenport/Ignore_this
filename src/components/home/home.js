@@ -16,8 +16,8 @@ import swift from "../../images/skills/swift.png"
 
 import Mandarin from "../Card/Card-1/card-1";
 import PressA from "../Card/Card-2/card-2";
-import Adventure from "../Card/Card-3/card-3";
-import Dog from "../Card/Card-4/card-4";
+import Tasks from "../Card/Card-3/card-3";
+import Candle from "../Card/Card-4/card-4";
 
 const Home = () => {
     return(
@@ -33,8 +33,8 @@ const Home = () => {
                     <div className="Works">
                         <Mandarin/>
                         <PressA/>
-                        <Adventure/>
-                        <Dog/>
+                        <Tasks/>
+                        <Candle/>
                     </div>
                 </div>
 

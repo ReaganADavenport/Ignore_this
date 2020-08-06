@@ -31,7 +31,7 @@ class Candle extends Component {
                         <div className="flip-ccard-back" onClick={this.handleClick}>
                             <>
                                 <img src={logo}/>
-                                <p>WordPress, e-commerce, UPS API, Plug-ins</p> /*Insanity management */
+                                <p>WordPress, e-commerce, UPS API, Plug-ins</p>
                                 <p><a href="https://thediakoniaretreatcenter.com/candle-ministry-2/">thediakoniaretreatcenter.com</a> </p>
                             </>
                         </div>
