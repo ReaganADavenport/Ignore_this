@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import ReactCardFlip from 'react-card-flip';
 import logo from "../../../images/to-do-list.png"
 
@@ -31,7 +32,7 @@ class Tasks extends Component {
                 <div className="flip-tcard-back" onClick={this.handleClick}>
                     <img src={logo}/>
                     <p>Swift, XCode</p>
-                    <p>Demo Video</p>
+                    <Link to="/tasks/demo">Demo Video</Link>
                     <p><a href="https://github.com/ReaganADavenport/To-Do_Mobile">GitHub Repository</a> </p>
                 </div>
             </ReactCardFlip>

@@ -1,0 +1,16 @@
+.Video{
+    background-image: linear-gradient(#FCA276, #DC3E52);
+    padding: 30px;
+}
+
+.Video h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.Video video{
+    /* height: 25%; */
+    padding: 5px;
+    width: calc(250px - 2vmin)
+}
