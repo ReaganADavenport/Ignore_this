@@ -31,7 +31,7 @@ class Mandarin extends Component {
                 <div className="flip-mcard-back" onClick={this.handleClick}>
                     <img src={logo}/>
                     <p>React, Express, HTML, CSS, JavaScipt, PosgreSQL</p>
-                    <p>Demo Video</p>
+                    
                     <p><a href="https://github.com/ReaganADavenport/learn-mandarin-client">GitHub - Frontend</a> </p>
                     <p><a href="https://github.com/ReaganADavenport/learn-mandarin-api">GitHub Backend</a> </p>
                 </div>
